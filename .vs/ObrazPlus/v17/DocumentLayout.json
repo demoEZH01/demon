@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\view\\editmaterialwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\editmaterialwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\obrazplus\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\obrazplus\\viewmodel\\materialitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\viewmodel\\materialitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\view\\editmaterialwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\editmaterialwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\obrazplus\\viewmodel\\materialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\viewmodel\\materialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\viewmodel\\editmaterialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\viewmodel\\editmaterialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\view\\addmaterialwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\addmaterialwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\viewmodel\\addmaterialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\viewmodel\\addmaterialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|c:\\users\\ezh01\\source\\repos\\sql\\obrazplus\\obrazplus\\view\\addmaterialwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\view\\addmaterialwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\obrazplus\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE8FDFF-311A-45ED-88B8-54DC52E71A7D}|ObrazPlus\\ObrazPlus.csproj|solutionrelative:obrazplus\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditMaterialViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\EditMaterialViewModel.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\ViewModel\\EditMaterialViewModel.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\EditMaterialViewModel.cs",
+              "RelativeToolTip": "ObrazPlus\\ViewModel\\EditMaterialViewModel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:36:05.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "View\\EditMaterialWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\EditMaterialWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\EditMaterialWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\EditMaterialWindow.xaml.cs",
+              "RelativeToolTip": "ObrazPlus\\View\\EditMaterialWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAWwCAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:16:52.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditMaterialWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\EditMaterialWindow.xaml",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\EditMaterialWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\EditMaterialWindow.xaml",
+              "RelativeToolTip": "ObrazPlus\\View\\EditMaterialWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T21:13:11.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddMaterialViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\AddMaterialViewModel.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\ViewModel\\AddMaterialViewModel.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\AddMaterialViewModel.cs",
+              "RelativeToolTip": "ObrazPlus\\ViewModel\\AddMaterialViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:24:23.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "View\\AddMaterialWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\AddMaterialWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\AddMaterialWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\AddMaterialWindow.xaml.cs",
+              "RelativeToolTip": "ObrazPlus\\View\\AddMaterialWindow.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:16:23.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddMaterialWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\AddMaterialWindow.xaml",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\AddMaterialWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\AddMaterialWindow.xaml",
+              "RelativeToolTip": "ObrazPlus\\View\\AddMaterialWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T19:23:56.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\App.xaml",
+              "RelativeDocumentMoniker": "ObrazPlus\\App.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\App.xaml",
+              "RelativeToolTip": "ObrazPlus\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T18:54:41.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ObrazPlus\\View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:40:54.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaterialViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\MaterialViewModel.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\ViewModel\\MaterialViewModel.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\MaterialViewModel.cs",
+              "RelativeToolTip": "ObrazPlus\\ViewModel\\MaterialViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAD4vyAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:38:07.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaterialItem.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\MaterialItem.cs",
+              "RelativeDocumentMoniker": "ObrazPlus\\ViewModel\\MaterialItem.cs",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\ViewModel\\MaterialItem.cs",
+              "RelativeToolTip": "ObrazPlus\\ViewModel\\MaterialItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:15:47.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ObrazPlus\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\ObrazPlus\\ObrazPlus\\View\\MainWindow.xaml",
+              "RelativeToolTip": "ObrazPlus\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T18:12:20.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
