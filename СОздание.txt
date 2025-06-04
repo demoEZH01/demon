@@ -1,0 +1,81 @@
+ private void LoadMaterialTypes()
+ {
+     using (var DB = new TimkaEntities())
+     {
+         var materialTypes = DB.MaterialType.ToList();
+         MaterialTypeComboBox.ItemsSource = materialTypes;
+
+         var materialUnit = DB.MaterialUnit.ToList();
+         EdTypeComboBox.ItemsSource = materialUnit;
+     }
+ }
+
+ private void AddButton_Click(object sender, RoutedEventArgs e)
+ {
+     try
+     {
+         using (var DB = new TimkaEntities())
+         {
+
+             MaterialImport newMaterial = new MaterialImport
+             {
+                 name = NameTextBox.Text,
+                 material_type_id = ((int)MaterialTypeComboBox.SelectedIndex + 6),
+                 price = float.Parse(PriceTextBox.Text),
+                 count = float.Parse(CountTextBox.Text),
+                 min_count = float.Parse(MinCountTextBox.Text),
+                 count_box = float.Parse(CountBoxTextBox.Text),
+                 material_unit_id = (int)EdTypeComboBox.SelectedIndex
+             };
+
+             DB.MaterialImport.Add(newMaterial);
+             DB.SaveChanges();
+
+             MessageBox.Show("Материал успешно добавлен.");
+         }
+     }
+     catch (Exception ex)
+     {
+         MessageBox.Show($"Ошибка: {ex.Message}");
+     }
+ }
+
+
+//////////
+
+
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0" Orientation="Vertical" Margin="0,0,0,10">
+        <Label Content="Название"/>
+        <TextBox x:Name="NameTextBox"/>
+
+        <Label Content="Тип материала"/>
+        <ComboBox x:Name="MaterialTypeComboBox"
+                  DisplayMemberPath="name"
+                  SelectedValuePath="Id"/>
+
+        <Label Content="Цена"/>
+        <TextBox x:Name="PriceTextBox"/>
+
+        <Label Content="Количество"/>
+        <TextBox x:Name="CountTextBox"/>
+
+        <Label Content="Минимальное количество"/>
+        <TextBox x:Name="MinCountTextBox"/>
+
+        <Label Content="Количество в упаковке"/>
+        <TextBox x:Name="CountBoxTextBox"/>
+
+        <Label Content="ID единицы измерения"/>
+        <ComboBox x:Name="EdTypeComboBox"
+               DisplayMemberPath="name"
+               SelectedValuePath="Id"/>
+    </StackPanel>
+
+    <Button Grid.Row="2" Content="Добавить" Height="30" Click="AddButton_Click"/>
+</Grid>

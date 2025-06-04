@@ -1,0 +1,124 @@
+internal class MateraialViewModel
+{
+    ObservableCollection<MaterialItem> materialList = new ObservableCollection<MaterialItem>();
+    public ObservableCollection<MaterialItem> MaterialList
+    {
+        get { return materialList; }
+        set { materialList = value; }
+    }
+
+    public MateraialViewModel()
+    {
+        LoadMaterials();
+    }
+
+    public void LoadMaterials()
+    {
+        try
+        {
+            using (var db = new TimkaEntities())
+            {
+                MaterialList.Clear();
+                var materials = db.MaterialImport.ToList();
+                foreach (var material in materials)
+                {
+                    MaterialList.Add(new MaterialItem(material));
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            MessageBox.Show("Ошибка", $"Ошибка: {e.Message}", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+    }
+}
+
+
+////////////////////////////
+
+
+public class MaterialItem
+ {
+     public MaterialImport materials { get; set; }
+     public string Title { get; set; }
+     public string materialType { get; set; }
+     public string minQuantity { get; set; }
+     public string quantityInStock { get; set; }
+     public string unitPrice { get; set; }
+     public string requiredQuantity { get; set; }
+
+     public MaterialItem(MaterialImport material)
+     {
+         this.Title = material.name;
+         this.materialType = material.MaterialType.name;
+         this.minQuantity = $"Минимальное количество: {material.min_count}";
+         this.quantityInStock = $"Количество на складе: {material.count}";
+         this.unitPrice = $"Цена: {material.price}р/{material.MaterialUnit.name} | {material.count_box}";
+         var count = material.MaterialProductsImport.ToList().Sum((product) => product.count);
+         this.requiredQuantity = $"Требуемое количество: {count}";
+     }
+ }
+
+///////////
+
+
+xaml
+<Border CornerRadius="10">
+        <ListBox ItemsSource="{Binding MaterialList}"  Margin="30 20 30 60" BorderBrush="#405C73" Background="#BFD6F6" >
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border Padding="10" CornerRadius="2" 
+     BorderBrush="LightGray" BorderThickness="1" Background="#F4E8D3" Width="750">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <StackPanel Orientation="Horizontal" >
+                                    <TextBlock Text="{Binding materialType}" FontFamily="Constantia"/>
+                                    <TextBlock Text=" | " FontFamily="Constantia"/>
+                                    <TextBlock Text="{Binding Title}" FontFamily="Constantia"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1">
+                                    <TextBlock Text="{Binding requiredQuantity}" Margin="0 0 40 0" FontFamily="Constantia"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <TextBlock Text="{Binding minQuantity}" FontFamily="Constantia"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                    <TextBlock Text="{Binding quantityInStock}" FontFamily="Constantia"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Grid.Row="3">
+                                    <TextBlock Text="{Binding unitPrice}" FontFamily="Constantia"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+    </Border>
+    <Button Content="Назад" Padding="8" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="#BFD6F6" Margin="10 10 30 20" Background="#405C73" BorderBrush="#BFD6F6" Width="100" Click="Button_Click" />
+    <Button Content="Создать материал" Padding="8" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="#BFD6F6" Margin="30 10 30 20" Background="#405C73" BorderBrush="#BFD6F6" Width="200" Click="Button_Click_1" />
+
+</Grid>
+
+
+\\\\\\
+
+
+public Materials()
+  {
+      InitializeComponent();
+      DataContext = new MateraialViewModel();
+  }
